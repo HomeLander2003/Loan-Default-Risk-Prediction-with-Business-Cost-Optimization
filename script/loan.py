@@ -20,7 +20,7 @@ class Clean:
 
     def clean(self):
         try:
-            file_path = r"D:\Bilal folder\internship\task4\credit_risk_dataset.csv"
+            file_path = r"credit_risk_dataset.csv" #add file path according to your file location
 
             if os.path.isfile(file_path):
                 self.df = pd.read_csv(file_path)
